@@ -1,0 +1,50 @@
+-------------------
+Mqtt - Client connected: 
+Mqtt - subscribed:  [ { topic: 'msg', qos: 2 } ]
+Mqtt - publish
+Topic: msg, Message: Hello world
+Mqtt - client.on("close")
+Mqtt - client.on("end")
+Mqtt - client.end success
+Mqtt - client.reconnect
+Mqtt - client.on("reconnect")
+-------------------
+Mqtt - Client connected: 
+Mqtt - subscribed:  [ { topic: 'msg', qos: 2 } ]
+Mqtt - publish
+Topic: msg, Message: Hello world
+Topic: msg, Message: Hello world
+Mqtt - client.on("close")
+Mqtt - client.on("close")
+Mqtt - client.on("end")
+Mqtt - client.on("end")
+Mqtt - client.end success
+Mqtt - client.reconnect
+Mqtt - client.on("reconnect")
+Mqtt - client.on("reconnect")
+-------------------
+Mqtt - Client connected: 
+Mqtt - subscribed:  [ { topic: 'msg', qos: 2 } ]
+Mqtt - publish
+Topic: msg, Message: Hello world
+Topic: msg, Message: Hello world
+Topic: msg, Message: Hello world
+Mqtt - client.on("close")
+Mqtt - client.on("close")
+Mqtt - client.on("close")
+Mqtt - client.on("end")
+Mqtt - client.on("end")
+Mqtt - client.on("end")
+Mqtt - client.end success
+Mqtt - client.reconnect
+Mqtt - client.on("reconnect")
+Mqtt - client.on("reconnect")
+Mqtt - client.on("reconnect")
+-------------------
+Mqtt - Client connected: 
+Mqtt - subscribed:  [ { topic: 'msg', qos: 2 } ]
+Mqtt - publish
+Topic: msg, Message: Hello world
+Topic: msg, Message: Hello world
+Topic: msg, Message: Hello world
+Topic: msg, Message: Hello world
