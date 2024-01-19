@@ -1,2 +1,23 @@
 # mqtt-test
-After each reconnect, I have another connection. If it was reconnected 3 times, when I publish a message, it is published 4 times (first connection and 3 reconnections)
+Every time it reconnects, the number of messages I receive multiplies.
+
+```
+node app.js
+```
+
+When app starts, result before first reconnect:
+- client.publish('msg', 'Hello')
+- client.on('message') - received once
+
+When it reconnects first time:
+- client.publish('msg', 'Hello')
+- client.on('message') - received twice
+- client.on('message') - received twice
+
+When it reconnects second time:
+- client.publish('msg', 'Hello')
+- client.on('message') - received thrice
+- client.on('message') - received thrice
+- client.on('message') - received thrice
+
+...and so on
