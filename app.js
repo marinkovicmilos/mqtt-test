@@ -45,7 +45,7 @@ client.on('connect', (connackPacket) => {
     });
 
     client.on('message', (topic, message) => {
-        console.log(`Topic: ${topic}, Message: ${message}`);
+        console.log(`Mqtt - client.on("message") Topic: ${topic}, Message: ${message}`);
     });
 
     client.on('close', (packet) => {
